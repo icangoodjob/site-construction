@@ -1,0 +1,303 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->	
+<html lang="ru">
+<!--Заголовок страницы, контейнер для других важных задач (не отображается)-->
+<head>
+	<!-- Заголовок страницы в браузере-->
+	<title>Главная</title>
+	<!--Кодировка страницы-->
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Подключаем CSS -->
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="css/iconfonts.css">
+	<link rel="stylesheet" href="css/nullstyle.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<!--Отображаемое тело страницы-->
+<body>
+	<!-- HEADER -->
+	<header class="header">
+		<div class="container-fluid">
+			<div class="header__slider">
+				<div class="header__slider__item">
+					<img src="img/header-bg.jpg" alt="header-bg" class="header__bg__img">
+				</div>
+				<div class="header__slider__item">
+					<img src="img/kran.jpg" class="kran__img" alt="kran">
+				</div>
+				<div class="header__slider__item">
+					<img src="img/balki.jpg" class="balki__img" alt="balki">
+				</div>
+			</div>
+			<div class="header__container_fixed">
+				<div class="container">
+					<div class="header__body">
+						<div class="header-top__wrapper">
+							<div class="header-top__logo">
+								<a href="index.html" target="_self"><img src="img/logo.png" alt=""></a>
+							</div>
+							<div class="header__burger">
+								<span></span>
+							</div>
+							<div class="header-top__inner">
+								<div class="header-top__icon">
+									<a class="header-top__instagram" href=""><i class="fab fa-instagram-square"></i></a>
+									<a class="header-top__tiktok" href=""><i class="fab fa-tiktok"></i></a>
+								</div>
+								<div class="header-top__phone">
+									<label>Строительные услуги</label>
+									<a href="tel:+749512345678">+7 (495) 123-456-78</a>
+								</div>
+								<div class="header-top__email">
+									<p>Email</p>
+									<a href="mailto:Info@mail.ru">Info@mail.ru</a>
+								</div>
+							</div>
+							<div class="header-top__btn">
+								<button class="call__btn">Заказать звонок</button>
+							</div>
+						</div>
+					</div>
+					<div class="header__menu">
+						<div class="container">
+							<nav class="menu">
+								<ul class="adaptive-menu__main menu__list">
+									<li class="menu__list-item"><a class="menu__link active" href="index.html" target="_self">Главная</a></li>
+									<li class="menu__list-item"><a class="menu__link" href="about.html" target="_self">О компании</a></li>
+									<li class="menu__list-item"><a class="menu__link" href="constructionandrepair.html" target="_blank">Строительство и ремонт</a></li>
+									<li class="menu__list-item"><a class="menu__link" href="reviews.html" target="_self">Отзывы</a></li>
+									<li class="menu__list-item"><a class="menu__link" href="contacts.html" target="_self">Контакты</a></li>
+								</ul>
+								<ul class="adaptive-menu__main adaptive-menu menu__list">
+									<li class="menu__list-item"><a class="header-top__instagram menu__link" href=""><i class="fab fa-instagram-square"></i></a></li>
+									<li class="menu__list-item"><a class="header-top__tiktok menu__link" href=""><i class="fab fa-tiktok"></i></a></li>
+									<li class="menu__list-item"><a class="menu__link" href="tel:+749512345678">+7 (495) 123-456-78</a></li>
+									<li class="menu__list-item"><a class="menu__link" href="mailto:Info@mail.ru">Info@mail.ru</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header-content construction" data-aos="slide-right" data-aos-delay= "200"  data-aos-duration= "1000">
+				<div class="container">
+					<h1 class="header-content__title">
+						Торгово-строительная компания <span>«М-ДВЕС»</span>
+					</h1>
+					<div class="header-content__subtitle">
+						<p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. Это тестовый контент, который не должен нести никакого смысла, лишь показать наличие самого текста или продемонстрировать типографику в деле.</p>
+						<p>C помощью этого онлайн-генератора рыботекста можно пачками плодить как отдельные предложения и заголовки</p>
+					</div>
+					<div class="header-content__btn">
+						<a class="header-content__link" href="#">Подробнее</a>
+						<a class="header-content__circle" href="#"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- HEADER -->
+
+
+	<!-- ОСНОВНОЙ БЛОК -->
+	<main>
+		<section class="services">
+			<div class="container">
+				<h2 class="services__title" data-aos="new-animation" data-aos-delay= "500">
+					Услуги
+				</h2>
+				<div class="services__items">
+					<a href="constructionandrepair.html" target="_self" class="services__item" data-aos="new-animation" data-aos-delay= "200">
+						<div class="services__images">
+							<img src="img/services-1.jpg" alt="">
+							<div class="services__content_wrap">
+								<div class="services__content">
+									<div class="services__text">
+										Строительство домов
+									</div>
+									<ul class="services__list">
+										<li class="service__list-item">Каркасные дома</li>
+										<li class="service__list-item">Кирпичные дома</li>
+										<li class="service__list-item">Срубы</li>
+										<li class="service__list-item">Заборы</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#" target="_self" class="services__item" data-aos="new-animation" data-aos-delay= "400">
+						<div class="services__images">
+							<img src="img/services-2.jpg" alt="">
+							<div class="services__content_wrap">
+								<div class="services__content">
+									<div class="services__text">
+										Ремонт помещений
+									</div>
+									<ul class="services__list">
+										<li class="service__list-item">Косметический ремонт</li>
+										<li class="service__list-item">Капитальный ремонт</li>
+										<li class="service__list-item">Дизайнерские проекты</li>
+										<li class="service__list-item">Ремонт офисов</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="plumbingworks.html" target="_self" class="services__item" data-aos="new-animation"  data-aos-delay= "600">
+						<div class="services__images">
+							<img src="img/services-3.jpg" alt="">
+							<div class="services__content_wrap">
+								<div class="services__content">
+									<div class="services__text services__text_p">
+										Прокладка инженерных коммуникаций
+									</div>
+									<ul class="services__list">
+										<li class="service__list-item">Электромонтажные работы</li>
+										<li class="service__list-item">Сантехнические работы</li>
+										<li class="service__list-item">Вентиляция и кондиционирование</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="container">
+				<h2 class="news__title">
+					Новости
+				</h2>
+				<div class="news__wrapper">
+					<div class="news__items">
+						<div class="news__item">
+							<div class="news__date">01.01.2005</div>
+							<div class="news__text">Мы открылись</div>
+							<div class="news__description">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. </div>
+							<div class="news__circle">
+								<a href=""><img src="img/arrow-right.png" alt=""></a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__date">01.01.2005</div>
+							<div class="news__text">Мы открылись</div>
+							<div class="news__description">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. </div>
+							<div class="news__circle">
+								<a href=""><img src="img/arrow-right.png" alt=""></a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__date">01.01.2005</div>
+							<div class="news__text">Мы открылись</div>
+							<div class="news__description">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. </div>
+							<div class="news__circle">
+								<a href=""><img src="img/arrow-right.png" alt=""></a>
+							</div>
+						</div>
+						<div class="news__item">
+							<div class="news__date">01.01.2005</div>
+							<div class="news__text">Мы открылись</div>
+							<div class="news__description">Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым. </div>
+							<div class="news__circle">
+								<a href="" target="_self"><img src="img/arrow-right.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<button id="widget" class="widget">
+			<img src="img/icons/vidget.svg" alt="">
+		</button>
+		<div class="window">
+			<form action="#">
+				<div class="window__head">
+					<div class="window__image">
+						<img src="img/house_3.jpg" alt="">
+					</div>
+					<div class="window__name">
+						<h6>Андрей Иванов, 29 лет, Москва</h6>
+					</div>
+				</div>
+				<div class="window__body">
+					<p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+					<p>Рыбатекст используется дизайнерами, проектировщиками и фронтендерами, когда нужно быстро заполнить макеты или прототипы содержимым.</p>
+				</div>
+				<div class="window__textarea">
+					<textarea name="comment" placeholder="Введите текст"></textarea>
+				</div>
+				<div class="window__footer">
+					<button class="close">&times;</button>
+				</div>
+			</form>
+		</div>
+	</main>
+	<!-- ОСНОВНОЙ БЛОК -->
+
+
+	<!-- FOOTER -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__wrapper">
+				<div class="footer__wrap">
+					<div class="footer__logo">
+						<a href="index.html" target="_self"><img src="img/logo.png" alt=""></a>
+					</div>
+				</div>
+				<div class="footer__wrap">
+					<div class="footer__info">
+						<div class="footer__icons">
+							<a class="footer__icon" href=""><i class="fab fa-instagram-square"></i></a>
+							<a class="footer__icon" href=""><i class="fab fa-tiktok"></i></a>
+						</div>
+						<div class="footer__email">
+							<p>Email</p>
+							<a href="mailto:Info@mail.ru">Info@mail.ru</a>
+						</div>
+						<div class="footer__phone">
+							<p>Отдел строительных услуг</p>
+							<a href="tel:+749512345678">+7 (495) 123-456-78</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__line"></div>
+		<div class="footer__copy">
+			&copy; ООО «М-ДВЕС», 2021
+		</div>
+	</footer>
+	<!-- FOOTER -->
+	<!-- Модальное окно -->
+	<div class="modal-overlay">
+		<div class="modal">
+			<a class="close-modal">
+				<svg viewBox="0 0 20 20">
+					<path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+				</svg>
+			</a>
+			<div class="modal-content">
+				<h2>Заголовок</h2>
+				<form class="call__form">
+					<input type="text" name="name" placeholder="Введите имя">
+					<input type="email" name="email" placeholder="Ваш E-mail">
+					<input type="tel" name="tel" class="phone" placeholder="Ваш телефон">
+					<button type="submit">Отправить</button>
+				</form>	
+			</div>
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/ed89a4511e.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/script.js"></script>
+<script src="js/slick.min.js"></script>
+</body>
+</html>
